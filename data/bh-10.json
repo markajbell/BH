@@ -1,0 +1,150 @@
+{
+  "data": {
+    "nodes": {
+      "5177": {
+        "label": "DE-DAS-DISTLIST1@MYLAB.LOCAL",
+        "kind": "Group",
+        "objectId": "S-1-5-21-1333368235-828418111-1849936505-3600",
+        "isTierZero": false,
+        "isOwnedObject": false,
+        "lastSeen": "2025-05-13T13:28:49.122Z"
+      },
+      "5179": {
+        "label": "RO-ARJ-DISTLIST1@MYLAB.LOCAL",
+        "kind": "Group",
+        "objectId": "S-1-5-21-1333368235-828418111-1849936505-3635",
+        "isTierZero": false,
+        "isOwnedObject": false,
+        "lastSeen": "2025-05-13T13:28:49.122Z"
+      },
+      "5188": {
+        "label": "BR-EDUFER191-ADMINGROUP1@MYLAB.LOCAL",
+        "kind": "Group",
+        "objectId": "S-1-5-21-1333368235-828418111-1849936505-3849",
+        "isTierZero": false,
+        "isOwnedObject": false,
+        "lastSeen": "2025-05-13T13:28:44.994145201Z"
+      },
+      "6889": {
+        "label": "6372101301SA@MYLAB.LOCAL",
+        "kind": "User",
+        "objectId": "S-1-5-21-1333368235-828418111-1849936505-2469",
+        "isTierZero": false,
+        "isOwnedObject": false,
+        "lastSeen": "2025-05-13T13:28:48.484Z"
+      },
+      "7204": {
+        "label": "DORTHY_ROWE@MYLAB.LOCAL",
+        "kind": "User",
+        "objectId": "S-1-5-21-1333368235-828418111-1849936505-2800",
+        "isTierZero": true,
+        "isOwnedObject": false,
+        "lastSeen": "2025-05-13T13:28:41.852961635Z"
+      },
+      "7583": {
+        "label": "CLAUDE_GIBSON@MYLAB.LOCAL",
+        "kind": "User",
+        "objectId": "S-1-5-21-1333368235-828418111-1849936505-3196",
+        "isTierZero": false,
+        "isOwnedObject": false,
+        "lastSeen": "2025-05-13T13:28:48.484Z"
+      },
+      "7630": {
+        "label": "ROSEANN_FISCHER@MYLAB.LOCAL",
+        "kind": "User",
+        "objectId": "S-1-5-21-1333368235-828418111-1849936505-3244",
+        "isTierZero": false,
+        "isOwnedObject": false,
+        "lastSeen": "2025-05-13T13:28:48.484Z"
+      },
+      "7675": {
+        "label": "STEWART_THOMAS@MYLAB.LOCAL",
+        "kind": "User",
+        "objectId": "S-1-5-21-1333368235-828418111-1849936505-3290",
+        "isTierZero": false,
+        "isOwnedObject": false,
+        "lastSeen": "2025-05-13T13:28:48.484Z"
+      },
+      "9999": {
+        "label": "tier0@MYLAB.LOCAL",
+        "kind": "tier0",
+        "objectId": "S-1-5-21-1333368235-828418111-1849936505-9999",
+        "isTierZero": true,
+        "isOwnedObject": false,
+        "lastSeen": "2025-05-13T13:28:48.484Z"
+      }
+    },
+    "edges": [
+      {
+        "source": "7630",
+        "target": "5188",
+        "label": "MemberOf",
+        "kind": "MemberOf",
+        "lastSeen": "2025-05-13T13:28:44.995877259Z"
+      },
+      {
+        "source": "5188",
+        "target": "7583",
+        "label": "GenericAll",
+        "kind": "GenericAll",
+        "lastSeen": "2025-05-13T13:28:43.548154584Z"
+      },
+      {
+        "source": "7583",
+        "target": "5177",
+        "label": "MemberOf",
+        "kind": "MemberOf",
+        "lastSeen": "2025-05-13T13:28:44.995877259Z"
+      },
+      {
+        "source": "5177",
+        "target": "7204",
+        "label": "GenericAll",
+        "kind": "GenericAll",
+        "lastSeen": "2025-05-13T13:28:41.853681099Z"
+      },
+      {
+        "source": "5188",
+        "target": "6889",
+        "label": "GenericAll",
+        "kind": "GenericAll",
+        "lastSeen": "2025-05-13T13:28:41.684963398Z"
+      },
+      {
+        "source": "6889",
+        "target": "5177",
+        "label": "MemberOf",
+        "kind": "MemberOf",
+        "lastSeen": "2025-05-13T13:28:44.995877259Z"
+      },
+      {
+        "source": "5188",
+        "target": "7675",
+        "label": "GenericAll",
+        "kind": "GenericAll",
+        "lastSeen": "2025-05-13T13:28:43.548154584Z"
+      },
+      {
+        "source": "7675",
+        "target": "5179",
+        "label": "MemberOf",
+        "kind": "MemberOf",
+        "lastSeen": "2025-05-13T13:28:44.995877259Z"
+      },
+      {
+        "source": "5179",
+        "target": "7204",
+        "label": "GenericAll",
+        "kind": "GenericAll",
+        "lastSeen": "2025-05-13T13:28:41.853681099Z"
+      },
+      {
+        "source": "7204",
+        "target": "9999",
+        "label": "tier0",
+        "kind": "tier0",
+        "lastSeen": "2025-05-13T13:28:41.853681099Z"
+      }
+    ]
+  }
+}
